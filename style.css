@@ -1,26 +1,19 @@
-/* #4682A9
-#749BC2
-#91C8E4
-#F6F4EB */
+
 
 body {
   background: #F6F4EB;
   cursor: url("logo.png"), auto;
 }
-.kjshd {
-  color: #F6F4EB;
-  color: #91C8E4;
-  color: #749BC2;
-  color: #4682A9;
-}
+
 
 .hide {
   background-image: url('images/03.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  
-  height: 30em;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 110%;
 }
+
 
 .h:hover {
   color: #F48484;
@@ -61,6 +54,7 @@ body {
 
 .dropdown-menu {
   background: #f6f4eb81;
+  
 }
 
 .abt {
