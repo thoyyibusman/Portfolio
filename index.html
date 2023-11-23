@@ -7,7 +7,7 @@
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
      <meta property="og:title" content="Thoyyib Usman" />
     <meta property="og:description" content="Personal Portfolio" />
-    <meta property="og:image" id="ogImagePlaceholder" content="https://github.com/thoyyibusman/Portfolio/images/profile-image.png" />
+    <meta property="og:image" id="ogImagePlaceholder" content="" />
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
      <title>Thoyyib Usman</title>
@@ -356,6 +356,9 @@ http://www.tooplate.com/view/2087-kalay
 
      <!-- SCRIPTS -->
      <script>
+           var ogImage = document.getElementById('ogImagePlaceholder');
+    ogImage.setAttribute('content', 'images/profile-image.png');
+          
           function shareOnSocialMedia(platform) {
         // Get the current URL
         var currentUrl = encodeURIComponent(window.location.href);
