@@ -315,6 +315,7 @@ footer {
 
 .about-thumb p {
   padding: 2px 0;
+  text-align: justify;
 }
 
 
@@ -409,7 +410,7 @@ footer {
 footer {
   background: #7682cc;
   text-align: center;
-  padding: 40px 0;
+  padding: 35px 0;
 }
 
 footer p {
